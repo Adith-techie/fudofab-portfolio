@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="FUDOFAB creative studio for design, development, editing, and idea-led digital work.">
+    <title>FUDOFAB | Light Your Idea</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style_v2.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="FUDOFAB home">
+        <img src="assets/images/logo.png" alt="FUDOFAB">
+        <span>FUDOFAB</span>
+      </a>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-label="Open navigation">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" data-nav aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#team">Team</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero__shade"></div>
+        <div class="hero__content">
+          <p class="hero__kicker">LET'S SHAPE THE FUTURE.....</p>
+          <h1 id="hero-title">Light Your IDEA</h1>
+          <p class="hero__copy">
+            At <strong>FUDOFAB</strong>, we bring your ideas to life. Whether you're a designer,
+            developer, or editor, we collaborate to transform concepts into powerful,
+            innovative solutions. Let's light up your vision and create something extraordinary together.
+          </p>
+          <a class="button button--primary" href="https://www.instagram.com/fudofab?igsh=MWdoejVwbzB3dHZxZA==" target="_blank" rel="noreferrer">Let's talk</a>
+        </div>
+      </section>
+
+      <section class="section services" id="services" aria-labelledby="services-title">
+        <div class="section__heading section__heading--split">
+          <div>
+            <h2 id="services-title">Our Service</h2>
+            <p>THIS IS SERVICE WE PROVIDE NOW</p>
+          </div>
+          <a class="button button--ghost" href="#contact">All Events</a>
+        </div>
+        <div class="service-list" data-services></div>
+      </section>
+
+      <section class="motion-band" aria-label="FUDOFAB motion preview">
+        <video src="assets/videos/color-motion.mp4" autoplay muted loop playsinline></video>
+        <div>
+          <h2>Ideas need motion</h2>
+          <p>Design, edit, compose, and shape digital work with a visual-first team.</p>
+        </div>
+      </section>
+
+      <section class="section team" id="team" aria-labelledby="team-title">
+        <div class="section__heading">
+          <h2 id="team-title">Our Team</h2>
+          <p>The people turning concepts into visuals, interfaces, edits, and launches.</p>
+        </div>
+        <div class="team-grid" data-team></div>
+      </section>
+
+      <section class="section gallery" id="gallery" aria-labelledby="gallery-title">
+        <div class="section__heading">
+          <h2 id="gallery-title">Our Gallery</h2>
+        </div>
+        <div class="gallery-grid" data-gallery></div>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div class="contact-card">
+          <img src="assets/images/contact.jpg" alt="Creative workspace and celebration scene">
+          <div class="contact-card__body">
+            <h2 id="contact-title">It's Time To Get In Touch</h2>
+            <p>Let's stay in touch! Contact us through email, Instagram, or X. We're always here to help.</p>
+            <div class="contact-links">
+              <a href="mailto:fudofab@gmail.com">fudofab@gmail.com</a>
+              <a href="https://www.instagram.com/fudofab?igsh=MWdoejVwbzB3dHZxZA==" target="_blank" rel="noreferrer">FUDOFAB Instagram</a>
+              <a href="#" aria-label="FUDOFAB on X">FUDOFAB (X)</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Copyright &copy; <span data-year></span> FUDOFAB. All rights reserved.</p>
+      <a href="#home">Back to top</a>
+    </footer>
+
+    <script src="js/content.js"></script>
+    <script src="js/main_v2.js"></script>
+  </body>
+</html>
